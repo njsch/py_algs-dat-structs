@@ -1,0 +1,2 @@
+# Explanation of Repository
+This particular repository is a intended to be a collated container of various algorithms and data structures, being strictly implemented in Python.  It is simply to demonstrate growing knowledge of how to implement these concepts in code.
