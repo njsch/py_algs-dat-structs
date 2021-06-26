@@ -5,7 +5,7 @@
     @author: Nathaniel Schmidt<schmidty2244@gmail.com>
 """
 
-from math import sqrt, floor# <https://docs.python.org/3/library/math.html>
+from math import sqrt# <https://docs.python.org/3/library/math.html>
 
 # Number Theory:
 def divides (a, b):
@@ -78,7 +78,7 @@ def findPrimes (num):
     maxTest = sqrt(num)
     
     if not maxTest.is_integer ():
-        maxTest = floor (maxTest)
+        maxTest //= maxTest
     
     for i in range(2, maxTest):
         if isPrime (i):
