@@ -80,7 +80,7 @@ def findPrimes (num):
     if not maxTest.is_integer ():
         maxTest = floor(maxTest)# Built-in floor quotient operator doesn't always convert from float to int, so use function from std. lib.
     
-    for i in range(2, maxTest):
+    for i in range(2, maxTest+1):
         if isPrime (i):
             primes.append (i)
         else:
