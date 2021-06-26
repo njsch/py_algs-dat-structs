@@ -70,6 +70,8 @@ readPrimeTest ()
 def findPrimes (num):
     """
         this is the first practical step in determining the prime factorisations for any given positive int.  We want to find (and start factorising from) the prime number closest to but less than the square root of the number we are wanting to prime-factorise, then return the primes to be tested.
+        
+        NOTE: more robust working algorithm at https://stackoverflow.com/questions/15347174/python-finding-prime-factors
     """
     
     primes = []
