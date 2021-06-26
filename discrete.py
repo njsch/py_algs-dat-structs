@@ -1,5 +1,5 @@
 """
-    Experiments and step-by-step tests to demonstrate some attempted self-implemented algorithms to perform discrete-mathematical calculations by coded computational means.
+    Experiments in the form of step-by-step tests to demonstrate some attempted self-implemented algorithms to perform discrete-mathematical calculations, by coded computational means.
     
     This is a personal test to see whether I: (a) adequately understand some of the concepts; and (b) can use and demonstrate programming knowledge by putting the concepts into practical-computational use.
     @author: Nathaniel Schmidt<schmidty2244@gmail.com>
