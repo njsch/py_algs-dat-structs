@@ -26,15 +26,15 @@ def readDivides ():
     b = int (input ("Enter the number to be divided"))
     return divides (a, b)
 
-def readDividesTest ():
+def DividesTest ():
     if readDivides ():
         print ("Yes, this divides")
     else:
         print ("No, this does not divide without remainders")
 
 # test, do this twice to test alternative results
-readDividesTest ()
-readDividesTest ()
+DividesTest ()
+DividesTest ()
 
 def isPrime (num):
     """
