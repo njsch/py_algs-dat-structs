@@ -5,7 +5,7 @@
     @author: Nathaniel Schmidt<schmidty2244@gmail.com>
 """
 
-from math import sqrt# <https://docs.python.org/3/library/math.html>
+from math import sqrt, floor# <https://docs.python.org/3/library/math.html>
 
 # Number Theory:
 def divides (a, b):
@@ -78,7 +78,7 @@ def findPrimes (num):
     maxTest = sqrt(num)
     
     if not maxTest.is_integer ():
-        maxTest //= maxTest
+        maxTest = floor(maxTest)# Built-in floor quotient operator doesn't always convert from float to int, so use function from std. lib.
     
     for i in range(2, maxTest):
         if isPrime (i):
