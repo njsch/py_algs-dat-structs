@@ -46,6 +46,8 @@ def isPrime (num):
             if num%i == 0:
                 return False
                 break
+            elif i == 2:
+                return True
             else:
                 return True
 
@@ -86,7 +88,7 @@ def findPrimes (num):
         else:
             continue
     
-    primes = primes.reverse ()
+    primes.reverse ()
     return primes
 
 def readTestedPrimes ():
